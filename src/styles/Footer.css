@@ -1,0 +1,14 @@
+/* Footer.css */
+.footer {
+    background-color: #333; /* Dark background */
+    color: white; /* White text */
+    padding: 20px; /* Padding around the footer */
+    text-align: center; /* Center the text */
+}
+
+.footer-content {
+    padding-top: 4em;
+    padding-bottom: 4em;
+    max-width: 1200px; /* Optional: limit the width */
+    margin: 0 auto; /* Center the content */
+}

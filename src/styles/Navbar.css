@@ -1,0 +1,15 @@
+/* Navbar.css */
+
+.nav-link-custom {
+    color: #333;
+    text-decoration: none;
+            font-weight: bold; /* Making text bold */
+            transition: color 0.3s, background-color 0.3s;
+            padding: 5px 10px;
+            border-radius: 4px;
+  }
+  
+  .nav-link-custom:hover {
+    color: #0d6efd;
+  }
+  

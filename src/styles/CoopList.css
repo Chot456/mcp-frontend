@@ -1,0 +1,30 @@
+/* src/LogoList.css */
+.logo-list {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .logo-container {
+    padding-top: 4em;
+    padding-bottom: 4em;
+    display: flex;
+    justify-content: center; /* Center logos horizontally */
+    align-items: center; /* Center logos vertically */
+    flex-wrap: wrap; /* Allow logos to wrap to the next line */
+    gap: 2rem; /* Space between logos */
+  }
+  
+  .logo {
+    display: inline-block; /* Make the anchor tag behave like a block */
+    transition: transform 0.2s; /* Add a hover effect */
+  }
+  
+  .logo img {
+    max-width: auto; /* Set a max width for logos */
+    height: 200px; /* Maintain aspect ratio */
+  }
+  
+  .logo:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+  }

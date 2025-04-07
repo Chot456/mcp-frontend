@@ -1,0 +1,38 @@
+/* src/Services.css */
+.services {
+    padding: 2rem;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .services-container {
+    padding-top: 4em;
+    padding-bottom: 4em;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: flex-start; /* Align items to the start vertically */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    gap: 2rem; /* Space between items */
+  }
+  
+  .service {
+    flex: 1 1 200px; /* Allow items to grow and shrink, with a base width of 200px */
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text within each service box */
+    transition: transform 0.2s; /* Add a hover effect */
+  }
+  
+  .service:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  .service h3 {
+    margin: 1rem 0;
+  }
+  
+  .service p {
+    color: #666;
+  }
