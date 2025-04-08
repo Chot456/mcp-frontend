@@ -1,4 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { NavLink } from "react-router";
+
 import '../styles/Navbar.css';
 
 export class Nav extends Component {
@@ -36,14 +38,16 @@ export class Nav extends Component {
 
                 {/* Bottom Navbar with container and left-aligned items */}
                 <nav className="bg-light border-top border-bottom py-3">
-        <div className="container">
-          <div className="d-flex justify-content-start gap-4">
-            <a href="#home" className="nav-link-custom">HOME</a>
-            <a href="#profile" className="nav-link-custom">GEODIC TRACKER</a>
-            <a href="#about" className="nav-link-custom">ABOUT US</a>
-          </div>
-        </div>
-      </nav>
+                    <div className="container">
+                        <div className="d-flex justify-content-start gap-4">
+                            <NavLink to="/" end className="nav-link-custom">
+                                HOME
+                            </NavLink>
+                            <NavLink to="/tracker" className="nav-link-custom">GEODETIC TRACKER</NavLink>
+                            <a href="#about" className="nav-link-custom">ABOUT US</a>
+                        </div>
+                    </div>
+                </nav>
 
             </div>
         )
